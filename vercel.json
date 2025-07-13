@@ -2,13 +2,12 @@
   "version": 2,
   "functions": {
     "api/*.py": {
-      "runtime": "@vercel/python@4.0.0",
+      "runtime": "@vercel/python@3.0.0",
       "maxDuration": 10,
       "memory": 1024
     }
   },
-  "regions": ["hnd1"],
   "env": {
-    "PYTHON_VERSION": "3.11"
+    "PYTHON_VERSION": "3.9"
   }
 }
