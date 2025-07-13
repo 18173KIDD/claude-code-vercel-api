@@ -7,7 +7,7 @@
       "memory": 1024
     }
   },
-  "regions": ["nrt1"],
+  "regions": ["hnd1"],
   "env": {
     "PYTHON_VERSION": "3.11"
   }
